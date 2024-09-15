@@ -30,7 +30,7 @@ public class GroceryCounter {
     if (this.tensNum > 9)
     {
       overflow();
-
+      this.tensNum = 0;
     }
   }
 
