@@ -84,4 +84,9 @@ public class GroceryCounter {
       System.out.println("$" + Integer.toString(this.tensNum) + Integer.toString(this.onesNum) + "." + Integer.toString(this.tenthsNum) + Integer.toString(this.hundrethsNum));
     }
   }
+
+  public int number_of_overflows()
+  {
+    return this.overflows;
+  }
 }
