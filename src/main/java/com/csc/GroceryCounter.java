@@ -73,15 +73,15 @@ public class GroceryCounter {
     this.hundrethsNum = 0;
   }
  
-  public void total()
+  public String total()
   {
     if (this.tensNum == 0 && this.onesNum == 0)
     {
-      System.out.println("$" + Integer.toString(this.onesNum) + "." + Integer.toString(this.tenthsNum) + Integer.toString(this.hundrethsNum));
+      return ("$" + Integer.toString(this.onesNum) + "." + Integer.toString(this.tenthsNum) + Integer.toString(this.hundrethsNum));
     }
     else
     {
-      System.out.println("$" + Integer.toString(this.tensNum) + Integer.toString(this.onesNum) + "." + Integer.toString(this.tenthsNum) + Integer.toString(this.hundrethsNum));
+      return ("$" + Integer.toString(this.tensNum) + Integer.toString(this.onesNum) + "." + Integer.toString(this.tenthsNum) + Integer.toString(this.hundrethsNum));
     }
   }
 
