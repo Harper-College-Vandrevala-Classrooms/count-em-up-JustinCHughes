@@ -75,7 +75,7 @@ public class GroceryCounter {
  
   public String total()
   {
-    if (this.tensNum == 0 && this.onesNum == 0)
+    if (this.tensNum == 0)
     {
       return ("$" + Integer.toString(this.onesNum) + "." + Integer.toString(this.tenthsNum) + Integer.toString(this.hundrethsNum));
     }

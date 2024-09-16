@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.csc.TestGroceryCounter" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-15T23:06:47" hostname="fedora" time="0.161">
+<testsuite name="com.csc.TestGroceryCounter" tests="11" skipped="0" failures="0" errors="0" timestamp="2024-09-16T03:18:41" hostname="fedora" time="0.183">
   <properties/>
-  <testcase name="itWorks()" classname="com.csc.TestGroceryCounter" time="0.161"/>
+  <testcase name="testAll()" classname="com.csc.TestGroceryCounter" time="0.139"/>
+  <testcase name="testOnesOverflow()" classname="com.csc.TestGroceryCounter" time="0.002"/>
+  <testcase name="testOnes()" classname="com.csc.TestGroceryCounter" time="0.013"/>
+  <testcase name="testTens()" classname="com.csc.TestGroceryCounter" time="0.001"/>
+  <testcase name="testHundrethsOverflow()" classname="com.csc.TestGroceryCounter" time="0.001"/>
+  <testcase name="testTenthsOverflow()" classname="com.csc.TestGroceryCounter" time="0.002"/>
+  <testcase name="testTensOverflow()" classname="com.csc.TestGroceryCounter" time="0.001"/>
+  <testcase name="testHundreths()" classname="com.csc.TestGroceryCounter" time="0.001"/>
+  <testcase name="testNothing()" classname="com.csc.TestGroceryCounter" time="0.001"/>
+  <testcase name="testTenths()" classname="com.csc.TestGroceryCounter" time="0.003"/>
+  <testcase name="itWorks()" classname="com.csc.TestGroceryCounter" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
